@@ -7,7 +7,7 @@ import numpy as np
 
 tqdm.pandas(desc="Extracting geo data")
 
-path = 'test_dataset.csv'
+path = 'data/test_dataset.csv'
 df = pd.read_csv(path)
 df = df.head(10000)
 
